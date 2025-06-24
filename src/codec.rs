@@ -180,4 +180,3 @@ impl Codec<sync::Response<MalachiteContext>> for ProtoCodec {
         Err(ProtoError::Other("Not implemented".to_string()))
     }
 }
-
