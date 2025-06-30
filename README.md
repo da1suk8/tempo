@@ -21,9 +21,8 @@ For detailed instructions on using the e2e testing framework, see the [Testnet R
 Quick start:
 ```bash
 # Launch a 3-node test network
-cd testnet
-./spawn.sh
+$ ./testnet/spawn.sh
 
 # Run automated e2e test
-./scripts/e2e_test.sh
+$ ./testnet/scripts/e2e_test.sh
 ```
