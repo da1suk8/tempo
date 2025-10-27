@@ -1,10 +1,9 @@
-use commonware_cryptography::{PrivateKeyExt as _, Signer as _};
-use eyre::{Context, ensure};
+use commonware_cryptography::{PrivateKeyExt as _, Signer as _, ed25519::PrivateKey};
+use eyre::{WrapErr as _, ensure};
 use indexmap::IndexMap;
 use rand::SeedableRng;
 use std::net::{IpAddr, Ipv4Addr, SocketAddr};
 use tempo_commonware_node_config::Config;
-use tempo_commonware_node_cryptography::PrivateKey;
 
 /// Generates a config file to run a bunch of validators locally.
 #[derive(Debug, clap::Parser)]
@@ -106,7 +105,7 @@ pub(crate) fn generate_config(
     let threshold = commonware_utils::quorum(peers as u32);
     let (polynomial, shares) = commonware_cryptography::bls12381::dkg::ops::generate_shares::<
         _,
-        tempo_commonware_node_cryptography::BlsScheme,
+        commonware_cryptography::bls12381::primitives::variant::MinSig,
     >(&mut rng, None, peers as u32, threshold);
 
     // Generate instance configurations
@@ -129,6 +128,8 @@ pub(crate) fn generate_config(
         let peer_config = Config {
             signer,
             share,
+            // 1 week worth of blocks, assuming 2s per block
+            epoch_length: 302_400,
             polynomial: polynomial.clone(),
             listen_port: port,
             metrics_port: Some(port + 1),

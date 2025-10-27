@@ -1,14 +1,15 @@
 //! xtask is a Swiss army knife of tools that help with running and testing tempo.
 
+use clap::Parser;
+use eyre::WrapErr as _;
+
+mod consensus_config;
+mod genesis;
+
 use crate::{
-    commonware::{GenerateConfig, generate_config},
+    consensus_config::{GenerateConfig, generate_config},
     genesis::GenesisArgs,
 };
-use clap::Parser;
-use eyre::Context;
-
-mod commonware;
-mod genesis;
 
 #[tokio::main]
 async fn main() -> eyre::Result<()> {

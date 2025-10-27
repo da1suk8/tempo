@@ -13,10 +13,9 @@ workspace = true
 [dependencies]
 tempo-chainspec.workspace = true
 tempo-commonware-node-config.workspace = true
-tempo-commonware-node-cryptography.workspace = true
+tempo-contracts.workspace = true
 tempo-evm.workspace = true
 tempo-precompiles.workspace = true
-tempo-contracts.workspace = true
 
 alloy-primitives.workspace = true
 camino = "1.1.11"

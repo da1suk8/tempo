@@ -2336,7 +2336,7 @@ dependencies = [
 [[package]]
 name = "commonware-broadcast"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bytes",
  "commonware-codec",
@@ -2354,7 +2354,7 @@ dependencies = [
 [[package]]
 name = "commonware-codec"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bytes",
  "paste",
@@ -2364,7 +2364,7 @@ dependencies = [
 [[package]]
 name = "commonware-consensus"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bytes",
  "cfg-if",
@@ -2389,7 +2389,7 @@ dependencies = [
 [[package]]
 name = "commonware-cryptography"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "blake3",
  "blst",
@@ -2414,7 +2414,7 @@ dependencies = [
 [[package]]
 name = "commonware-macros"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "futures",
  "proc-macro2",
@@ -2427,7 +2427,7 @@ dependencies = [
 [[package]]
 name = "commonware-p2p"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bytes",
  "commonware-codec",
@@ -2453,7 +2453,7 @@ dependencies = [
 [[package]]
 name = "commonware-resolver"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bimap",
  "bytes",
@@ -2475,7 +2475,7 @@ dependencies = [
 [[package]]
 name = "commonware-runtime"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "async-lock",
  "axum",
@@ -2507,7 +2507,7 @@ dependencies = [
 [[package]]
 name = "commonware-storage"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bytes",
  "cfg-if",
@@ -2529,7 +2529,7 @@ dependencies = [
 [[package]]
 name = "commonware-stream"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bytes",
  "chacha20poly1305",
@@ -2549,7 +2549,7 @@ dependencies = [
 [[package]]
 name = "commonware-utils"
 version = "0.0.62"
-source = "git+https://github.com/commonwarexyz/monorepo?rev=0124b5fb2b3859a702f0ae6d9678ce37ac906db4#0124b5fb2b3859a702f0ae6d9678ce37ac906db4"
+source = "git+https://github.com/commonwarexyz/monorepo?rev=8c07397a10630e0f6cda8aa8abd4047b6d682ffc#8c07397a10630e0f6cda8aa8abd4047b6d682ffc"
 dependencies = [
  "bytes",
  "cfg-if",
@@ -11496,19 +11496,20 @@ dependencies = [
  "commonware-p2p",
  "commonware-resolver",
  "commonware-runtime",
+ "commonware-storage",
  "commonware-utils",
  "eyre",
  "futures",
  "governor 0.6.3",
  "indexmap 2.11.4",
+ "prometheus-client",
  "rand 0.8.5",
- "reth",
+ "rand_core 0.6.4",
  "reth-node-builder",
  "reth-node-core",
  "reth-primitives-traits",
  "reth-provider",
  "tempo-commonware-node-config",
- "tempo-commonware-node-cryptography",
  "tempo-node",
  "tempo-payload-types",
  "tempo-primitives",
@@ -11523,26 +11524,14 @@ dependencies = [
  "alloy-primitives",
  "camino",
  "commonware-codec",
+ "commonware-cryptography",
  "commonware-utils",
  "const-hex",
  "humantime-serde",
  "indexmap 2.11.4",
  "serde",
- "tempo-commonware-node-cryptography",
  "thiserror 2.0.17",
  "toml",
-]
-
-[[package]]
-name = "tempo-commonware-node-cryptography"
-version = "0.1.0"
-dependencies = [
- "alloy-primitives",
- "bytes",
- "commonware-codec",
- "commonware-cryptography",
- "commonware-utils",
- "rand 0.8.5",
 ]
 
 [[package]]
@@ -11550,6 +11539,7 @@ name = "tempo-consensus"
 version = "0.1.0"
 dependencies = [
  "alloy-consensus",
+ "alloy-eips",
  "alloy-evm",
  "reth-chainspec",
  "reth-consensus",
@@ -11886,7 +11876,6 @@ dependencies = [
  "simple-tqdm",
  "tempo-chainspec",
  "tempo-commonware-node-config",
- "tempo-commonware-node-cryptography",
  "tempo-contracts",
  "tempo-evm",
  "tempo-precompiles",
